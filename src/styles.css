@@ -63,7 +63,7 @@ div.stone:first-child {
   100% {
     left: 0px;
     top: 0px;
-    transform: rotate(720deg);
+    transform: rotate(360deg);
   }
 }
 div.stone:nth-child(2) {

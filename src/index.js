@@ -5,8 +5,10 @@ import "./styles.css";
 
 function App() {
   const [animateDir, setDir] = useState("animate-down");
+
   const animateClass = "stone" + " " + animateDir;
-  setInterval(function() {
+
+  setTimeout(function() {
     if (animateDir === "animate-down") setDir("animate-up");
     else setDir("animate-down");
   }, 8000);
